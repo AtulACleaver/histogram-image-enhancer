@@ -150,13 +150,3 @@ histogram-enhancer/
 | Matplotlib | 3.10.8 | Histogram visualization |
 
 ---
-
-## v2 Roadmap
-
-- [ ] PostgreSQL logging of enhancement history
-- [ ] Batch endpoint for multiple images in one request
-- [ ] Cloudinary integration for cloud image storage
-- [ ] Deploy to Render
-- [ ] API key authentication
-- [ ] Evaluation metrics (SSIM, PSNR)
-- [x] Streamlit demo UI

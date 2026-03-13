@@ -39,6 +39,20 @@ Open **http://localhost:8000/docs** for the interactive Swagger UI.
 
 ---
 
+## Streamlit Web UI
+
+A user-friendly web interface is available for interactive image enhancement.
+
+### Running the UI
+Make sure the FastAPI server is running first, then in a new terminal:
+```bash
+source venv/bin/activate
+streamlit run streamlit_app.py
+```
+Open **http://localhost:8501** to use the application.
+
+---
+
 ## API Reference
 
 ### `GET /health`
@@ -130,6 +144,10 @@ histogram-enhancer/
 | OpenCV (headless) | 4.10.0.84 | Histogram analysis & image processing |
 | NumPy | 1.26.4 | Array operations |
 | python-multipart | 0.0.9 | File upload support |
+| Streamlit | 1.55.0 | Web interface |
+| Requests | 2.32.5 | API communication |
+| Pillow | 12.1.1 | Image loading & handling |
+| Matplotlib | 3.10.8 | Histogram visualization |
 
 ---
 
@@ -141,4 +159,4 @@ histogram-enhancer/
 - [ ] Deploy to Render
 - [ ] API key authentication
 - [ ] Evaluation metrics (SSIM, PSNR)
-- [ ] Streamlit demo UI
+- [x] Streamlit demo UI

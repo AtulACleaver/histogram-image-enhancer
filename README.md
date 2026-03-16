@@ -149,4 +149,4 @@ histogram-enhancer/
 | Pillow | 12.1.1 | Image loading & handling |
 | Matplotlib | 3.10.8 | Histogram visualization |
 
----
+---    
